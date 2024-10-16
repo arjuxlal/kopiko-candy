@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.head-color{
+    color: #b7b7b7;
+    font-family: "playfair display",serif;
+    letter-spacing: 5px;
+    transition: color 0.3s ease;
+}
+.head-color:hover{
+    color: rgb(252, 67, 67);
+}
+.head-color2{
+    color: #b7b7b7;
+    font-family: "Open sans",sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: 95;
+}
+hr{
+    border: 1px solid;
+    color: rgb(56, 54, 54);
+    width: 100%;
+}
+@media(min-width:1024px){
+    hr{
+        width: 80%;
+        margin: auto;
+        border: 1px solid;
+        color: rgb(56, 54, 54);
+    }
+}
+.nav-link{
+    color: white;
+    transition: color 0.3s ease;
+}
+.nav-link:hover{
+    color: rgb(252, 67, 67) !important;
+}
+.navbar-light .navbar-toggler-icon{
+    background-color: white;
+}
+.menu-color{
+    color: white;
+    font-family: "Open sans",sans-serif;
+}
+@media(min-width:992px){
+    .menu-color{
+        display: none;
+    }
+}
+.candy-heading{
+    font-size: 42px;
+    font-family: "Playfair Display",serif;
+    color: white;
+}
+.content-text1{
+    color: white;
+    font-size: 26px;
+    font-family: "Playfair Display",serif;
+    margin: 0px 0px 30px;
+}
+.para1{
+    color: #7a7a7a;
+    font-size: 18px;
+    font-family: "ROboto" , sans-serif;
+}
+.para-copyRight{
+    color: #7a7a7a;
+    font-family: "Open sans",sans-serif;
+    font-weight: lighter;
+}
+.color{
+    color: white;
+    transition: color 0.3s ease;
+}
+.color:hover{
+    color: rgb(252, 67, 67);
+    text-decoration: underline;
+}
